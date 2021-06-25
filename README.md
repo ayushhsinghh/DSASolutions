@@ -1,5 +1,4 @@
 # DSA Solution
-DSA Solutions in C++
 
 ## Recursion
 
@@ -15,11 +14,16 @@ DSA Solutions in C++
 
 
 ## Generic Tree
-* [Generic Tree Basics(Input , Traversal)](GenericTree\GenericTrees_Basics.cpp)
+* [Generic Tree Basics(Input , Traversal)](GenericTree/GenericTrees_Basics.cpp)
 
 ## BinaryTree
 
 * [Binary Tree Traversal(Pre , Post , In , Level)](BinaryTree/BinaryTree_Traversal.cpp)
 * [Height Of Binary Tree](BinaryTree/Height_BinaryTree.cpp)
+* [Diameter of Binary Tree](BinaryTree/Diameter_BinaryTree.cpp)
 * [Left View Binary Tree)](BinaryTree/leftViewBinaryTree.cpp)
 * [Right View Binary Tree](BinaryTree/rightViewBinaryTree.cpp)
+
+<hr>
+
+##### Language C++
