@@ -28,6 +28,8 @@
 
 * [Search In Binary Search Tree](BinarySearchTree/SearchInBST.cpp)
 * [Print Range In Binary Search Tree](BinarySearchTree/printRangeInBST.cpp)
+* [Check BST (Triplet class)](BinarySearchTree/check_BST.cpp)
+* [Check BST (Range Comparison)](BinarySearchTree/check_BST_BetterWay.cpp)
 
 
 <hr>

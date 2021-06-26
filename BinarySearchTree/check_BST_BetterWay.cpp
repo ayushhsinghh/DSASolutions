@@ -20,37 +20,15 @@ class BinaryTreeNode{
 };
 
 
-class Triplet{
-    public:
-    bool isBST;
-    int minimum;
-    int maximum;
-};
-
-
-Triplet checkBST(BinaryTreeNode<int> *root){
+bool checkBST(BinaryTreeNode<int> * root , int min=INT_MIN , int max=INT_MAX){
     if(root==NULL){
-        Triplet t;
-        t.isBST = true;
-        t.minimum = INT_MAX;
-        t.maximum = INT_MIN;
-        return t;
+        return true;
     }
-    Triplet leftSide = checkBST(root->left);
-    Triplet rightSide = checkBST(root->right);
-
-    int minimum = min(root->data , min(leftSide.minimum , rightSide.minimum));
-    int maximum = max(root->data , max(leftSide.maximum , rightSide.maximum));
-
-    bool output = (root->data > leftSide.maximum) && (root->data < rightSide.minimum) && leftSide.isBST && rightSide.isBST;
-    Triplet t;
-    t.isBST = output;
-    t.minimum = minimum;
-    t.maximum = maximum;
-
-    return t;
+    if(root->data < min || root->data > max){
+        return false;
+    }
+    return checkBST(root->left , min , root->data -1) && checkBST(root->right ,root->data , max);
 }
-
 
 
 
@@ -106,10 +84,10 @@ int main(){
 
     printTreeByLevel(root);
 
-    Triplet t = checkBST(root);
 
-    cout<<"Tree is : "<<t.isBST; // output 0 means false , 1 : true
+    bool check = checkBST(root);
 
+    cout<<"Tree is : "<<check;  // if output is 0 means False ; 1 : true
 
 
 
