@@ -24,6 +24,11 @@
 * [Left View Binary Tree)](BinaryTree/leftViewBinaryTree.cpp)
 * [Right View Binary Tree](BinaryTree/rightViewBinaryTree.cpp)
 
+## Binary Search Tree
+
+* [Search In Binary Search Tree](BinarySearchTree/SearchInBST.cpp)
+
+
 <hr>
 
 ##### Language C++
