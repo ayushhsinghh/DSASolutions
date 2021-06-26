@@ -27,6 +27,7 @@
 ## Binary Search Tree
 
 * [Search In Binary Search Tree](BinarySearchTree/SearchInBST.cpp)
+* [Print Range In Binary Search Tree](BinarySearchTree/printRangeInBST.cpp)
 
 
 <hr>
