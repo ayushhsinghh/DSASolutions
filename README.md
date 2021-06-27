@@ -24,6 +24,7 @@
 * [Mirror Image of BinaryTree](BinaryTree/Mirror_of_BinaryTree.cpp)
 * [Left View Binary Tree)](BinaryTree/leftViewBinaryTree.cpp)
 * [Right View Binary Tree](BinaryTree/rightViewBinaryTree.cpp)
+* [Min. and Max. of BinaryTree](BinaryTree/Max_Min_BinaryTree.cpp)
 
 
 ## Binary Search Tree
