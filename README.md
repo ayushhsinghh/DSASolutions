@@ -33,6 +33,7 @@
 * [Print Range In Binary Search Tree](BinarySearchTree/printRangeInBST.cpp)
 * [Check BST (Triplet class)](BinarySearchTree/check_BST.cpp)
 * [Check BST (Range Comparison)](BinarySearchTree/check_BST_BetterWay.cpp)
+* [Binary Search Tree From Sorted Array](BinarySearchTree/BST_From_Sorted_Array.cpp)
 
 
 <hr>
