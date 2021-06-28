@@ -36,7 +36,7 @@
 * [Check BST (Range Comparison)](BinarySearchTree/check_BST_BetterWay.cpp)
 * [Binary Search Tree From Sorted Array](BinarySearchTree/BST_From_Sorted_Array.cpp)
 * [Binary Search Tree To Sorted Linked List](BinarySearchTree/BST_To_Sorted_LInkedList.cpp)
-* [BinarySearchTree Class (Insert , Delete , Traverse , Search)](BinarySearchTree\BST_Class_Insert_Delete_print_search.cpp)
+* [BinarySearchTree Class (Insert , Delete , Traverse , Search)](BinarySearchTree/BST_Class_Insert_Delete_print_search.cpp)
 
 
 <hr>
