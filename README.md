@@ -13,6 +13,15 @@
 * [Quick Sort](sorting/quickSort.cpp)
 
 
+## Linked List
+* [Create LinkedList (Input and Print)](LinkedList/Create_LL.cpp)
+* [Delete element from LinkedList](LinkedList/Deletation_LL.cpp)
+* [Insert element to LinkedList](LinkedList/Insertion_LL.cpp)
+* [Traverse LinkedList](LinkedList/Traversal_LL.cpp)
+* [Reverse a LinkedList](LinkedList/reverse_LL.cpp)
+* [MergeSort on LinkedList](LinkedList/mergeSort_LinkedList.cpp)
+
+
 ## Generic Tree
 * [Generic Tree Basics(Input , Traversal)](GenericTree/GenericTrees_Basics.cpp)
 
