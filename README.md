@@ -48,6 +48,10 @@
 * [BinarySearchTree Class (Insert , Delete , Traverse , Search)](BinarySearchTree/BST_Class_Insert_Delete_print_search.cpp)
 * [AVL Tree Class (Insert , Delete , Traverse)](BinarySearchTree/AVL_Tree_Class.cpp)
 
+## Priority Queue & Heap
+
+* [MinHeap Class (Insert , Remove , GetMin)](PriorityQuery_Heap/Min_Head_Class(insert,remove,getMin).cpp)
+
 
 <hr>
 
