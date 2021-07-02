@@ -96,6 +96,7 @@ class MaxHeap{
 int main(){
 
     MaxHeap pq;
+    
     pq.insert(10);
     pq.insert(20);
     pq.insert(30);
