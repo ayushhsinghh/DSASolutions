@@ -12,8 +12,8 @@ void swap(int &a , int &b){
         a = a - b;
     }
 
-// Sort : Ascending Order - Max Heap
-// Sort : Descending Order - Min Heap
+// Sort : Ascending Order - Min Heap
+// Sort : Descending Order - Max Heap
 
 
 // Function to sort in Ascending Order
