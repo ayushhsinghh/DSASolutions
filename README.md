@@ -1,4 +1,4 @@
-# DSA Solution
+# DSA Solution : C++
 
 ## Recursion
 
@@ -11,6 +11,7 @@
 * [Insetion Sort](sorting/InsertionSort.cpp)
 * [Merge Sort](sorting/mergeSort.cpp)
 * [Quick Sort](sorting/quickSort.cpp)
+* [Heap Sort](sorting/HeapSort.cpp)
 
 
 ## Linked List
@@ -51,7 +52,8 @@
 ## Priority Queue & Heap
 
 * [Min Heap Class (Insert , Remove , GetMin)](PriorityQuery_Heap/Min_Heap_Class.cpp)
-* [Max Heap Class (Insert , Remove , GetMin)](PriorityQuery_Heap/Max_Heap_class.cpp)
+* [Max Heap Class (Insert , Remove , GetMax)](PriorityQuery_Heap/Max_Heap_class.cpp)
+* [Heap Sort - InPlace](PriorityQuery_Heap/HeapSort_Inplace.cpp)
 
 
 <hr>
