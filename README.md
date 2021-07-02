@@ -50,7 +50,8 @@
 
 ## Priority Queue & Heap
 
-* [MinHeap Class (Insert , Remove , GetMin)](PriorityQuery_Heap/Min_Head_Class(insert,remove,getMin).cpp)
+* [Min Heap Class (Insert , Remove , GetMin)](PriorityQuery_Heap/Min_Heap_Class.cpp)
+* [Max Heap Class (Insert , Remove , GetMin)](PriorityQuery_Heap/Max_Heap_class.cpp)
 
 
 <hr>
