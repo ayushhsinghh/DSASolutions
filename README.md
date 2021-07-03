@@ -55,6 +55,7 @@
 * [Max Heap Class (Insert , Remove , GetMax)](PriorityQuery_Heap/Max_Heap_class.cpp)
 * [Heap Sort - InPlace](PriorityQuery_Heap/HeapSort_Inplace.cpp)
 * [K Sorted Array - InPlace](PriorityQuery_Heap/K_Sorted_Array.cpp)
+* [K Smallest Element - Priority Queue](PriorityQuery_Heap/K_Smallest_element.cpp)
 
 
 <hr>
