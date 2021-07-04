@@ -3,11 +3,47 @@
 using namespace std;
 
 
-Node* reverseLL(Node* head){
 
 
-    return head;
-}
+// Less Time Complexity
+pair<Node* , Node*> reverse(Node* head){
+    if(head == NULL || head->next== NULL){
+        pair<Node* , Node*> p;
+        p.first = head;
+        p.second = head;
+        return p;
+    }
+
+    pair<Node* , Node*> last = reverse(head->next);
+
+    last.second->next = head;
+    head->next = NULL;
+
+    pair<Node* , Node*> ans;
+    ans.first = last.first;
+    ans.second = head;
+    return ans;
+    };
+
+
+// Recursice Way : More Time complexity
+
+// Node* reverseLL(Node* head){
+//     if(head == NULL || head->next == NULL){
+//         return head;
+//     }
+
+//     Node* last = reverseLL(head->next);
+
+//     Node* temp = last;
+//     while(temp->next != NULL){
+//         temp = temp->next;
+//     }
+
+//     temp->next = head;
+//     head->next = NULL;
+//     return last;
+// }
 
 
 
@@ -35,7 +71,7 @@ Node* takeInput(){
 
 // Function to print Linked list
 void print(Node *head){
-    if(head->data == NULL){
+    if(head == NULL){
         cout<<"Linked List is empty"<<endl;
     }
     else{
@@ -50,8 +86,10 @@ void print(Node *head){
 int main()
 {
     Node *head = takeInput();
-
     print(head);
+    pair<Node* , Node*> pq = reverse(head);
+    cout<<"After Reverses "<<endl;
+    print(pq.first);
 
 
     return 0;
