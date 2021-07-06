@@ -58,9 +58,13 @@
 * [K Smallest Element - Priority Queue](PriorityQuery_Heap/K_Smallest_element.cpp)
 
 
-# Trie & Huffman
+## Trie & Huffman
 * [Trie Class - Insert , Search , Remove](TrieAndHuffman/Trie_Class(Insert,Remove,Search).cpp)
 
+
+## Dynamic Programming & Memoization
+
+* [0-1 Knapsack - DP , Memoization , Recursion](DynamicProgramming/0-1_Knapsack.cpp)
 
 <hr>
 
