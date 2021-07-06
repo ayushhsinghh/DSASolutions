@@ -4,5 +4,6 @@
         "utility": "cpp",
         "vector": "cpp",
         "queue": "cpp"
-    }
+    },
+    "C_Cpp.errorSquiggles": "Disabled"
 }
