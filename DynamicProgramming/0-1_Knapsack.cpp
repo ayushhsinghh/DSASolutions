@@ -104,9 +104,9 @@ int knapshackDP(int wt[] , int val[] , int capacity , int size){
 
 
 int main(){
-    int wt[] = { 10 , 20 , 30};
-    int val[] = {60 , 100 , 120};
-    int capacity = 50;
+    int wt[] = { 1 , 2 , 3};
+    int val[] = {6 , 10 , 12};
+    int capacity = 5;
 
 
     int maxProfit = knapshackDP(wt , val , capacity , 3); // Dynamic Programming
