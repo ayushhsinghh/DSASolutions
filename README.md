@@ -65,6 +65,8 @@
 ## Dynamic Programming & Memoization
 
 * [0-1 Knapsack - DP , Memoization , Recursion](DynamicProgramming/0-1_Knapsack.cpp)
+* [Subset Sum Problem - DP](DynamicProgramming/Subset_Sum.cpp)
+* [Equal Sum Partition Problem - DP](DynamicProgramming/Equal_Sum_Partition.cpp)
 
 <hr>
 
