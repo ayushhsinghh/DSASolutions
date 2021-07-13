@@ -104,6 +104,12 @@ The array can be partitioned as {1, 5, 5} and {11}
 
 </details>
 
+
+## Graph
+
+* [BSFand DFS Traveral](Graph/DFSandBFS.cpp)
+
+
 <hr>
 
 ##### Language C++
