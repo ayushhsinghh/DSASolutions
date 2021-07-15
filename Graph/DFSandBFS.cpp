@@ -23,6 +23,22 @@ void printDFS(int** edge , int n ,bool* visited ,int sv){
     }
 }
 
+// This function will help to print disconnected vertices as well
+void DFS(int** edge , int n){
+    bool* visited = new bool[n];
+    for(int i = 0 ; i < n ; i++){
+        visited[i] = false;
+            }
+
+    for(int i = 0 ; i < n ; i++){
+        if(visited[i] == false){
+            printDFS(edge,n,visited,i);
+        }
+    }
+    delete[] visited;
+}
+}
+
 // BFS 
 void printBFS(int** edge , int n ,bool* visited ,int sv){
     queue<int> vertex;
@@ -46,6 +62,21 @@ void printBFS(int** edge , int n ,bool* visited ,int sv){
             }
                 }
     }
+
+
+// This function will help to print disconnected vertices as well
+void BFS(int**edge , int n){
+    bool* visited = new bool[n];
+    for(int i = 0 ; i < n ; i++){
+        visited[i] = false;
+    }
+    for(int i = 0 ; i < n ; i++){
+        if(!visited[i]){
+            printBFS(edge,n,visited,i);
+        }
+    }
+    delete[] visited;
+}
 
 
 
@@ -78,25 +109,24 @@ int main(){
         edge[s][f] = 1;
     }
 
-    bool *visited = new bool[n];
-    for(int i=0;i<n;i++){
-        visited[i]=false;
-    }
-
 
     // DFS  
     cout<<"DFS is"<<endl;
-    printDFS(edge , n , visited , 0);
+    DFS(edge,n);
     cout<<endl;
 
 
     // BFS
-    for(int i=0;i<n;i++){
-        visited[i]=false; // reset again
-    }
     cout<<"BFS is"<<endl;
-    printBFS(edge , n , visited , 0);
+    BFS(edge,n);
 
+
+
+
+    // delete allocated memory
+    for(int i=0;i<n;i++){
+        delete [] edge[i];
+    }
     
 
 
