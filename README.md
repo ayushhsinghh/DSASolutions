@@ -107,8 +107,8 @@ The array can be partitioned as {1, 5, 5} and {11}
 
 ## Graph
 
-* [BSFand DFS Traveral](Graph/DFSandBFS.cpp)
-* [Check Path in Directed Graph](Graph/CheckPath.exe)
+* [BSF and DFS Traveral](Graph/DFSandBFS.cpp)
+* [Check Path in Directed Graph](Graph/CheckPath.cpp)
 
 
 <hr>
