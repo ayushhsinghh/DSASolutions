@@ -61,7 +61,7 @@
 * [K Smallest Element - Priority Queue](PriorityQuery_Heap/K_Smallest_element.cpp)
 
 
-## Trie 
+## Trie   
 * [Trie Class - Insert , Search , Remove](TrieAndHuffman/Trie_Class(Insert,Remove,Search).cpp)
 
 
