@@ -18,7 +18,7 @@ bool checkPath(int **edge , int n , bool* visited , int startPoint , int endPoin
             if(visited[i]){
                 continue;
             }
-        cout<<i;
+        // cout<<i;
         bool check = checkPath(edge , n , visited , i  , endPoint);
         if(check) return true;  
         }
