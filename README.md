@@ -35,6 +35,8 @@
 * [Mirror Image of BinaryTree](BinaryTree/Mirror_of_BinaryTree.cpp)
 * [Left View Binary Tree](BinaryTree/leftViewBinaryTree.cpp)
 * [Right View Binary Tree](BinaryTree/rightViewBinaryTree.cpp)
+* [Top View Binary Tree](BinaryTree/topViewBinaryTree.cpp)
+* [Bottom View Binary Tree](BinaryTree/bottomViewBinaryTree.cpp)
 * [Min. and Max. of BinaryTree](BinaryTree/Max_Min_BinaryTree.cpp)
 * [Path from Root to Node](BinaryTree/Path_From_Root_to_Node.cpp)
 
