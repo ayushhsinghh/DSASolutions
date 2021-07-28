@@ -7,6 +7,8 @@ using namespace std;
 
 
 // DFS
+// n = no of vertex 
+// sv = startPoint
 void printDFS(int** edge , int n ,bool* visited ,int sv){
     cout<<sv<<" ";
     visited[sv] = true;
@@ -65,6 +67,7 @@ void printBFS(int** edge , int n ,bool* visited ,int sv){
 
 
 // This function will help to print disconnected vertices as well
+// n = no of vertex
 void BFS(int**edge , int n){
     bool* visited = new bool[n];
     for(int i = 0 ; i < n ; i++){
@@ -85,7 +88,7 @@ void BFS(int**edge , int n){
 
 int main(){
 
-    int n ,e;
+    int n ,e; // n = vertex(n) and e = edge(n)
     cout<<"Enter no of vertices ";
     cin>>n;
     cout<<"Enter no of edges ";
@@ -102,7 +105,7 @@ int main(){
     }
 
     for(int i=0;i<e;i++){
-        int f , s;
+        int f , s; // f = first vertex and s = second vertex
         cout<<"Enter"<<i<<"th edge ";
         cin>>f>>s;
         edge[f][s] = 1;
