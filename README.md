@@ -65,6 +65,14 @@
 * [Trie Class - Insert , Search , Remove](TrieAndHuffman/Trie_Class(Insert,Remove,Search).cpp)
 
 
+## Graph
+
+* [Breadth First and Depth First Traveral](Graph/DFandBF_Traversal.cpp)
+* [Check Path in Directed Graph](Graph/CheckPath.cpp)
+* [Get Path in Directed Graph using DFS](Graph/GetPath_DFS.cpp)
+* [Get Path in Directed Graph using BFS](Graph/GetPath_BFS.cpp)
+
+
 ## Dynamic Programming & Memoization
 
 * [0-1 Knapsack - DP , Memoization , Recursion](DynamicProgramming/0-1_Knapsack.cpp)
@@ -106,11 +114,6 @@ The array can be partitioned as {1, 5, 5} and {11}
 
 </details>
 
-
-## Graph
-
-* [BSF and DFS Traveral](Graph/DFSandBFS.cpp)
-* [Check Path in Directed Graph](Graph/CheckPath.cpp)
 
 
 <hr>
