@@ -52,7 +52,6 @@ void topView(Node * root) {
         for(auto it: _map){
             cout<<it.second->data<<" ";
         }
-
 }
 
 
