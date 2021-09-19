@@ -33,9 +33,10 @@
 * [Height Of Binary Tree](BinaryTree/Height_BinaryTree.cpp)
 * [Diameter of Binary Tree](BinaryTree/Diameter_BinaryTree.cpp)
 * [Mirror Image of BinaryTree](BinaryTree/Mirror_of_BinaryTree.cpp)
+* [Vertical Traversal of BinaryTree](BinaryTree/VerticalOrderTraversal.cpp)
 * [Left View Binary Tree](BinaryTree/leftViewBinaryTree.cpp)
 * [Right View Binary Tree](BinaryTree/rightViewBinaryTree.cpp)
-* [Top View Binary Tree](BinaryTree/topViewBinaryTree.cpp)
+* [Top View Binary Tree](BinaryTree/TopViewBinaryTree.cpp)
 * [Bottom View Binary Tree](BinaryTree/bottomViewBinaryTree.cpp)
 * [Min. and Max. of BinaryTree](BinaryTree/Max_Min_BinaryTree.cpp)
 * [Path from Root to Node](BinaryTree/Path_From_Root_to_Node.cpp)
@@ -68,9 +69,9 @@
 ## Graph
 
 * [Breadth First and Depth First Traveral](Graph/DFandBF_Traversal.cpp)
-* [Check Path in Directed Graph](Graph/CheckPath.cpp)
-* [Get Path in Directed Graph using DFS](Graph/GetPath_DFS.cpp)
-* [Get Path in Directed Graph using BFS](Graph/GetPath_BFS.cpp)
+* [Check if Path exist in Graph](Graph/CheckPath.cpp)
+* [Get Path using DFS](Graph/GetPath_DFS.cpp)
+* [Get Path using BFS](Graph/GetPath_BFS.cpp)
 
 
 ## Dynamic Programming & Memoization
