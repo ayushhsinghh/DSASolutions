@@ -77,43 +77,9 @@
 ## Dynamic Programming & Memoization
 
 * [0-1 Knapsack - DP , Memoization , Recursion](DynamicProgramming/0-1_Knapsack.cpp)
-
-<details>
-  <summary> Subset Sum Problem - DP </summary>
-
-
-```
-Given a set of non-negative integers, and a value sum, determine if there is a subset of the given set with sum equal to given sum.
-Example:
-
-Input:  set[] = {3, 34, 4, 12, 5, 2}, sum = 9
-Output:  True  
-Why? There is a subset (4, 5) with sum 9.
-```
-
+* [Factorial - DP , Memoization , Recursion , No Space](DynamicProgramming/Factorial_All_Way.cpp)
 * [Subset Sum Problem - DP](DynamicProgramming/Subset_Sum.cpp)
-
-
-</details>
-
-<details>
-  <summary> Equal Sum Partition Problem - DP </summary>
-
-
-```
-Question : Partition problem is to determine whether a given set can be partitioned into two subsets such 
-that the sum of elements in both subsets is same.
-Examples:
-
-arr[] = {1, 5, 11, 5}
-Output: true 
-The array can be partitioned as {1, 5, 5} and {11}
-```
-
 * [Equal Sum Partition Problem - DP](DynamicProgramming/Equal_Sum_Partition.cpp)
-
-
-</details>
 
 
 
