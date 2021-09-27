@@ -78,8 +78,10 @@
 
 * [0-1 Knapsack - DP , Memoization , Recursion](DynamicProgramming/0-1_Knapsack.cpp)
 * [Factorial - DP , Memoization , Recursion , No Space](DynamicProgramming/Factorial_All_Way.cpp)
+* [Min Steps to 1 - DP , Memoization , Recursion](DynamicProgramming/MinStepTo_1.cpp)
 * [Subset Sum Problem - DP](DynamicProgramming/Subset_Sum.cpp)
 * [Equal Sum Partition Problem - DP](DynamicProgramming/Equal_Sum_Partition.cpp)
+
 
 
 
