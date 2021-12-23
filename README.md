@@ -81,6 +81,7 @@
 * [Min Steps to 1 - DP , Memoization , Recursion](DynamicProgramming/MinStepTo_1.cpp)
 * [Min Coin Change Problem - DP , Memoization , Recursion](DynamicProgramming/MinCoinChange.cpp)
 * [Max profit from wine sale - Memoization , Recurstion](DynamicProgramming/WineBottleProblem.cpp)
+* [Nth Catalan Number - DP , Memoization , Recursion](DynamicProgramming/NthCatalanNumber.cpp)
 * [Subset Sum Problem - DP](DynamicProgramming/Subset_Sum.cpp)
 * [Equal Sum Partition Problem - DP](DynamicProgramming/Equal_Sum_Partition.cpp)
 
