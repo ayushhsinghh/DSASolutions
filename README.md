@@ -74,6 +74,9 @@
 * [Get Path using BFS](Graph/GetPath_BFS.cpp)
 
 
+## Greedy Problems
+* [Activity Selection](Greedy/ActivitySelection.cpp)
+
 ## Dynamic Programming & Memoization
 
 * [0-1 Knapsack - DP , Memoization , Recursion](DynamicProgramming/0-1_Knapsack.cpp)
